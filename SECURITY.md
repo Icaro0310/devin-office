@@ -2,11 +2,13 @@
 
 ## What this tool does with your data
 
-- **No telemetry.** This project sends nothing anywhere.
-- **No network by default.** All processing is local unless a command
-  explicitly says otherwise (and it will say so in `--help`).
-- **Data stays on your machine.** Files it reads and writes are documented
-  in the README.
+- **No telemetry.** This project sends nothing to analytics or tracking.
+- **Local by default; hubs on demand.** In split mode, `probe.py` sends
+  session metadata and tool activity to the hubs you configure — that is
+  its function. Without configured hubs, processing stays local.
+- **Generated files.** The tool writes operational files such as
+  `up.log` and executor state; they live alongside the project and are
+  never uploaded.
 
 ## Sensitive data handling
 
