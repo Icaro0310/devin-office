@@ -1,5 +1,30 @@
 <div align="center">
 
+# devin-office — MOVED
+
+**This repository was absorbed into the
+[`devin-control`](https://github.com/Icaro0310/devin-control) monorepo.**
+
+The code now lives at `packages/office/`. the service stays source-only; run it from the monorepo
+
+```bash
+# development moved
+git clone https://github.com/Icaro0310/devin-control
+cd devin-control/packages/office
+```
+
+The repository is archived; open issues and PRs belong to devin-control.
+History remains readable here for reference.
+
+</div>
+
+---
+
+<details>
+<summary>Original README (pre-archive)</summary>
+
+<div align="center">
+
 <img src="assets/banner.svg" alt="devin-office" width="100%"/>
 
 <a href="https://github.com/Icaro0310/devin-office/actions/workflows/tests.yml"><img src="https://github.com/Icaro0310/devin-office/actions/workflows/tests.yml/badge.svg" alt="tests"/></a>
@@ -293,3 +318,5 @@ Read-only — nothing is signalled or killed; off-Linux falls back to
 `tasklist`/`ps` with less detail. Tool-call attribution is lock-PID +
 children inference (heuristic); container-level attribution is not
 currently shipped.
+
+</details>
